@@ -1,10 +1,11 @@
+--Source: https://cx-oracle.readthedocs.io/en/latest/user_guide/initialization.html
 import cx_Oracle
 import sys
 import os
 
 try:
     if sys.platform.startswith("darwin"):
-        lib_dir = os.path.join(os.environ.get("This PC"), "Downloads",
+        lib_dir = os.path.join(os.environ.get("Home"), "Downloads",
                                "instantclient_21_6")
         cx_Oracle.init_oracle_client(lib_dir=lib_dir)
     elif sys.platform.startswith("win64"):
