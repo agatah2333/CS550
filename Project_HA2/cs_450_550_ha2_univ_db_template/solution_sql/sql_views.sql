@@ -1,4 +1,4 @@
---CheemaFatima, Ha2_SQL_Initial
+--CheemaFatima, Ha2_SQL
 
 -- query_a
 drop view query_a;
